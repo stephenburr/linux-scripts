@@ -1,2 +1,2 @@
 # List large directories, sort numerically in reverse order, shot top 10
-du -ckx | sort -rn | head
+du -chx | sort -rh | head
